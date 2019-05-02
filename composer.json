@@ -1,0 +1,31 @@
+{
+    "name": "swag/new-tab",
+    "description": "Example plugin which adds a new tab to the product detail page",
+    "version": "v1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shopware AG"
+        }
+    ],
+    "require": {
+        "shopware/platform": "dev-master"
+    },
+    "extra": {
+        "shopware-plugin-class": "Swag\\NewTab\\NewTab",
+        "label": {
+            "de-DE": "Beispiel Plugin, welches einen neuen Tab der Produkt Detailseite hinzufügt",
+            "en-GB": "Example plugin which adds a new tab to the product detail page"
+        },
+        "description": {
+            "de-DE": "Beispiel Plugin, welches einen neuen Tab der Produkt Detailseite hinzufügt",
+            "en-GB": "Example plugin which adds a new tab to the product detail page"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Swag\\NewTab\\": "src/"
+        }
+    }
+}
