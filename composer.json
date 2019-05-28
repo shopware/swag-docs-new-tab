@@ -15,12 +15,12 @@
     "extra": {
         "shopware-plugin-class": "Swag\\NewTab\\NewTab",
         "label": {
-            "de-DE": "Beispiel Plugin, welches einen neuen Tab der Produkt Detailseite hinzufügt",
-            "en-GB": "Example plugin which adds a new tab to the product detail page"
+            "de-DE": "Label für das Plugin NewTab",
+            "en-GB": "Label for the plugin NewTab"
         },
         "description": {
-            "de-DE": "Beispiel Plugin, welches einen neuen Tab der Produkt Detailseite hinzufügt",
-            "en-GB": "Example plugin which adds a new tab to the product detail page"
+            "de-DE": "Beschreibung für das Plugin NewTab",
+            "en-GB": "Description for the plugin NewTab"
         }
     },
     "autoload": {
