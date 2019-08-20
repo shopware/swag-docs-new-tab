@@ -1,7 +1,7 @@
 import './view/sw-product-detail-custom';
 import './page/sw-product-detail';
 
-import { Module } from 'src/core/shopware';
+const { Module } = Shopware;
 
 Module.register('sw-new-tab-custom', {
     routeMiddleware(next, currentRoute) {
@@ -11,7 +11,7 @@ Module.register('sw-new-tab-custom', {
                 path: '/sw/product/detail/:id/custom',
                 component: 'sw-product-detail-custom',
                 meta: {
-                    parentPath: "sw.product.index"
+                    parentPath: 'sw.product.index'
                 }
             });
         }
